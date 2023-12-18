@@ -6,3 +6,4 @@ mongoose
 .then((con)=>console.log(`Database is Connected:${con.connection.host}`))
 .catch((err)=>console.log(err))
 }
+
